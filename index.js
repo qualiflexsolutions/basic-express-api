@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/chuck", (req, res) => {
-    res.send ("Chuck Norris is the best!");
+    res.send ("Chuck Norris is the be(a)st!");
 });
 
 app.listen(port, () => {
