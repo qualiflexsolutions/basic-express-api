@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
     res.send("We are finished with this tutorial!");
 });
 
+app.get("/chuck", (req, res) => {
+    res.send ("Chuck Norris is the best!");
+});
+
 app.listen(port, () => {
     console.log(`listening at http://localhost:${port}`);
 });
