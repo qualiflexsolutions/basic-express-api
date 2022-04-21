@@ -7,7 +7,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/chuck", (req, res) => {
-    res.send ("Chuck Norris is the be(a)st!");
+    res.send("Chuck Norris is the be(a)st!");
+});
+
+app.get("/chuck2", (req, res) => {
+    res.send("Chuck Norris can start fire with a magnifying glass - at night!");
 });
 
 app.listen(port, () => {
